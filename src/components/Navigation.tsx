@@ -16,7 +16,7 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-slate-200 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <div className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">
             Portfolio
           </div>
           
@@ -26,7 +26,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-slate-700 hover:text-blue-600 transition-colors duration-200 font-medium"
+                className="text-slate-700 hover:text-orange-600 transition-colors duration-200 font-medium"
               >
                 {item.name}
               </a>
@@ -37,7 +37,7 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-slate-700 hover:text-blue-600 transition-colors"
+              className="text-slate-700 hover:text-orange-600 transition-colors"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -52,7 +52,7 @@ const Navigation = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 text-slate-700 hover:text-blue-600 transition-colors duration-200"
+                  className="block px-3 py-2 text-slate-700 hover:text-orange-600 transition-colors duration-200"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}

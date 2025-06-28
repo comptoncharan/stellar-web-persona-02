@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button";
 const Contact = () => {
   const contactInfo = [
     {
-      icon: <Mail className="h-6 w-6 text-blue-600" />,
+      icon: <Mail className="h-6 w-6 text-orange-600" />,
       label: "Email",
       value: "alex@example.com",
       href: "mailto:alex@example.com"
     },
     {
-      icon: <Phone className="h-6 w-6 text-green-600" />,
+      icon: <Phone className="h-6 w-6 text-amber-600" />,
       label: "Phone",
       value: "+1 (555) 123-4567",
       href: "tel:+15551234567"
@@ -56,7 +56,7 @@ const Contact = () => {
                   <CardContent className="p-6">
                     <a 
                       href={info.href}
-                      className="flex items-center space-x-4 hover:text-blue-600 transition-colors duration-200"
+                      className="flex items-center space-x-4 hover:text-orange-600 transition-colors duration-200"
                     >
                       {info.icon}
                       <div>
@@ -78,7 +78,7 @@ const Contact = () => {
                   <a
                     key={index}
                     href={link.href}
-                    className="text-slate-600 hover:text-blue-600 transition-colors duration-200 hover:scale-110 transform"
+                    className="text-slate-600 hover:text-orange-600 transition-colors duration-200 hover:scale-110 transform"
                     aria-label={link.label}
                   >
                     {link.icon}
@@ -99,27 +99,27 @@ const Contact = () => {
                   <input
                     type="text"
                     placeholder="Your Name"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all duration-200"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent transition-all duration-200"
                   />
                   <input
                     type="email"
                     placeholder="Your Email"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all duration-200"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent transition-all duration-200"
                   />
                 </div>
                 <input
                   type="text"
                   placeholder="Subject"
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all duration-200"
+                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent transition-all duration-200"
                 />
                 <textarea
                   rows={6}
                   placeholder="Your Message"
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all duration-200 resize-none"
+                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent transition-all duration-200 resize-none"
                 />
                 <Button 
                   type="submit"
-                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-3 rounded-lg transition-all duration-300 hover:scale-105"
+                  className="w-full bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 text-white py-3 rounded-lg transition-all duration-300 hover:scale-105"
                 >
                   Send Message
                 </Button>
