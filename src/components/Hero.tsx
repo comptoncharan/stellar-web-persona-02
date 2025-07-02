@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-6">
             Hi, I'm{" "}
-            <span className="bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Alex Smith
             </span>
           </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
             >
               View My Work
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -27,7 +27,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-2 border-slate-300 hover:border-orange-600 px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+              className="border-2 border-slate-300 hover:border-blue-600 px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
             >
               Download CV
             </Button>
@@ -35,19 +35,19 @@ const Hero = () => {
           <div className="flex justify-center space-x-6">
             <a 
               href="#" 
-              className="text-slate-600 hover:text-orange-600 transition-colors duration-200 hover:scale-110 transform"
+              className="text-slate-600 hover:text-blue-600 transition-colors duration-200 hover:scale-110 transform"
             >
               <Github size={24} />
             </a>
             <a 
               href="#" 
-              className="text-slate-600 hover:text-orange-600 transition-colors duration-200 hover:scale-110 transform"
+              className="text-slate-600 hover:text-blue-600 transition-colors duration-200 hover:scale-110 transform"
             >
               <Linkedin size={24} />
             </a>
             <a 
               href="#" 
-              className="text-slate-600 hover:text-orange-600 transition-colors duration-200 hover:scale-110 transform"
+              className="text-slate-600 hover:text-blue-600 transition-colors duration-200 hover:scale-110 transform"
             >
               <Mail size={24} />
             </a>
