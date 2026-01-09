@@ -28,6 +28,8 @@ const Hero = () => {
           
           <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
             Building modern, responsive web applications with clean code and AI-assisted workflows. 
+            Passionate about creating seamless user experiences, optimizing performance, and leveraging 
+            cutting-edge technologies to deliver scalable solutions that make a real impact.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
