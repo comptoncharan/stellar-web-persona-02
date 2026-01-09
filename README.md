@@ -10,10 +10,10 @@ The site presents my work in a clean, modern layout and serves as a central plac
 
 This portfolio is used for:
 
-- Job applications  
-- Freelance opportunities  
-- Professional networking  
-- Personal branding  
+- Job applications
+- Freelance opportunities
+- Professional networking
+- Personal branding
 
 ---
 
@@ -21,11 +21,11 @@ This portfolio is used for:
 
 This project is built with modern web technologies:
 
-- **React** – component-based UI development  
-- **Vite** – fast development server and build tool  
-- **TypeScript** – type-safe JavaScript  
-- **Tailwind CSS** – utility-first styling  
-- **shadcn/ui** – reusable UI components  
+- **React** – component-based UI development
+- **Vite** – fast development server and build tool
+- **TypeScript** – type-safe JavaScript
+- **Tailwind CSS** – utility-first styling
+- **shadcn/ui** – reusable UI components
 
 ---
 
