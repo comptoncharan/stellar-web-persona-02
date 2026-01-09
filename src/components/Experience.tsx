@@ -1,44 +1,44 @@
-import { Briefcase, TrendingUp, Users, Award } from "lucide-react";
+import { Code, Rocket, FolderGit2, GraduationCap } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
     {
-      title: "Operations Manager",
-      company: "Emerge BPO",
-      period: "2018 – 2021",
+      title: "Full Stack Developer",
+      company: "Personal Projects & Freelance",
+      period: "2023 – Present",
       highlights: [
-        "Led cross-functional teams in delivering client solutions",
-        "Implemented process improvements reducing costs by 15%",
-        "Maintained 95%+ customer satisfaction metrics"
+        "Built responsive web applications using React, TypeScript, and Tailwind CSS",
+        "Developed full-stack solutions with Flask and Python backends",
+        "Implemented AI-assisted workflows to accelerate development"
       ]
     },
     {
-      title: "Supervisor",
-      company: "Teleperformance",
-      period: "2013 – 2018",
+      title: "Full Stack Web Development",
+      company: "Toronto Metropolitan University",
+      period: "2023 – 2024",
       highlights: [
-        "Managed team performance and KPI achievement",
-        "Developed training programs for new hires",
-        "Streamlined workflows improving efficiency by 20%"
+        "Completed comprehensive certification in modern web development",
+        "Built portfolio projects including healthcare and education platforms",
+        "Mastered React, JavaScript, Python, and responsive design principles"
       ]
     },
     {
-      title: "Lead Supervisor",
-      company: "Qualfon Inc",
-      period: "2006 – 2013",
+      title: "Self-Taught Developer",
+      company: "Online Learning & Practice",
+      period: "2022 – 2023",
       highlights: [
-        "Supervised daily operations and team scheduling",
-        "Achieved multiple Best Practice Awards",
-        "Mentored junior team members for career growth"
+        "Learned HTML, CSS, JavaScript fundamentals through hands-on projects",
+        "Explored modern frameworks and development tools",
+        "Contributed to open-source projects and coding communities"
       ]
     }
   ];
 
   const stats = [
-    { icon: <Briefcase className="h-5 w-5" />, value: "15+", label: "Years Experience" },
-    { icon: <Users className="h-5 w-5" />, value: "100+", label: "Team Members Led" },
-    { icon: <TrendingUp className="h-5 w-5" />, value: "20%", label: "Efficiency Gains" },
-    { icon: <Award className="h-5 w-5" />, value: "95%+", label: "Satisfaction Rate" }
+    { icon: <FolderGit2 className="h-5 w-5" />, value: "5+", label: "Projects Built" },
+    { icon: <Code className="h-5 w-5" />, value: "6+", label: "Technologies" },
+    { icon: <Rocket className="h-5 w-5" />, value: "100%", label: "Passion Driven" },
+    { icon: <GraduationCap className="h-5 w-5" />, value: "1", label: "Certification" }
   ];
 
   return (
@@ -47,10 +47,10 @@ const Experience = () => {
         <div className="text-center mb-16 animate-fade-in">
           <span className="text-primary font-mono text-sm tracking-wider uppercase">Experience</span>
           <h2 className="text-4xl md:text-5xl font-display font-bold mt-4 mb-6">
-            Professional <span className="text-gradient">Journey</span>
+            Development <span className="text-gradient">Journey</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            15+ years of leadership experience in operations management
+            Transitioning from operations leadership to full-stack development
           </p>
         </div>
 
