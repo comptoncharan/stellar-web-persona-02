@@ -14,8 +14,8 @@ const About = () => {
     },
     {
       icon: <Users className="h-8 w-8 text-primary" />,
-      title: "Leadership Background",
-      description: "15+ years managing teams and optimizing operations in BPO environments"
+      title: "Real-World Projects",
+      description: "Portfolio of practical applications including healthcare tools, education platforms, and interactive web apps"
     }
   ];
 
