@@ -1,40 +1,41 @@
 # Compton Charan – Portfolio Website
 
-This is my personal portfolio website built to showcase my skills, projects, and experience as a **Full Stack Developer**.
+This repository contains my personal portfolio website, designed to present my professional background, technical skills, and selected projects as a **Full Stack Developer**.
 
-The site presents my work in a clean, modern layout and serves as a central place for employers, clients, and collaborators to learn more about me and contact me.
+The site serves as a central, polished platform for showcasing my work, highlighting my development approach, and providing an easy way for recruiters, clients, and collaborators to connect with me.
 
 ---
 
-## 🚀 Live Purpose
+## 🎯 Purpose
 
-This portfolio is used for:
+This portfolio is intended to support:
 
-- Job applications
-- Freelance opportunities
+- Job and internship applications
+- Freelance and contract opportunities
 - Professional networking
-- Personal branding
+- Personal branding and technical visibility
 
 ---
 
-## 🛠️ Tech Stack
+## 🧩 Technology Stack
 
-This project is built with modern web technologies:
+The project is built using a modern, performance-focused frontend stack:
 
-- **React** – component-based UI development
-- **Vite** – fast development server and build tool
-- **TypeScript** – type-safe JavaScript
-- **Tailwind CSS** – utility-first styling
-- **shadcn/ui** – reusable UI components
+- **React** – for building modular, component-driven user interfaces
+- **Vite** – for fast development, optimized builds, and efficient tooling
+- **TypeScript** – to improve code reliability, scalability, and maintainability
+- **Tailwind CSS** – for consistent, utility-first styling
+- **shadcn/ui** – for accessible, reusable UI components
 
 ---
 
-## 📂 Project Structure
+## 🏗️ Project Structure
 
 ```text
 src/
- ├─ components/      # Reusable UI components
- ├─ pages/           # Main application pages
- ├─ assets/          # Images and static assets
+ ├─ components/      # Reusable and shared UI components
+ ├─ pages/           # Application pages and route-level components
+ ├─ assets/          # Static assets such as images and icons
  ├─ App.tsx          # Root application component
  └─ main.tsx         # Application entry point
+
