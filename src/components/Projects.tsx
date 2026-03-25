@@ -62,20 +62,36 @@ const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 right-4 flex gap-3">
-                    <a 
-                      href={project.liveUrl}
-                      className="p-2 rounded-full bg-primary/20 backdrop-blur-sm text-foreground hover:bg-primary/40 transition-colors"
-                      aria-label="View live demo"
-                    >
-                      <ExternalLink size={18} />
-                    </a>
-                    <a 
-                      href={project.githubUrl}
-                      className="p-2 rounded-full bg-primary/20 backdrop-blur-sm text-foreground hover:bg-primary/40 transition-colors"
-                      aria-label="View source code"
-                    >
-                      <Github size={18} />
-                    </a>
+                    {project.liveUrl && project.liveUrl !== "#" ? (
+                      <a 
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-2 rounded-full bg-primary/20 backdrop-blur-sm text-foreground hover:bg-primary/40 transition-colors"
+                        aria-label="View live demo"
+                      >
+                        <ExternalLink size={18} />
+                      </a>
+                    ) : (
+                      <span className="p-2 rounded-full bg-primary/20 backdrop-blur-sm text-foreground text-xs" title="Coming soon">
+                        Live soon
+                      </span>
+                    )}
+                    {project.githubUrl && project.githubUrl !== "#" ? (
+                      <a 
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-2 rounded-full bg-primary/20 backdrop-blur-sm text-foreground hover:bg-primary/40 transition-colors"
+                        aria-label="View source code"
+                      >
+                        <Github size={18} />
+                      </a>
+                    ) : (
+                      <span className="p-2 rounded-full bg-primary/20 backdrop-blur-sm text-foreground text-xs" title="Coming soon">
+                        Code soon
+                      </span>
+                    )}
                   </div>
                 </div>
               </div>

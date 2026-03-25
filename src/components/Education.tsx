@@ -10,6 +10,7 @@ const Education = () => {
     }
   ];
 
+  // Replace # with your certificate URLs (e.g. freeCodeCamp: https://freecodecamp.org/certification/yourusername/cert-name)
   const certifications = [
     {
       name: "Responsive Web Design",

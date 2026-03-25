@@ -37,7 +37,7 @@ const Awards = () => {
             Awards & <span className="text-gradient">Recognition</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A track record of excellence and measurable impact
+            Recognitions from my operations and leadership career—demonstrating impact and excellence
           </p>
         </div>
 

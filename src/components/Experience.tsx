@@ -36,9 +36,9 @@ const Experience = () => {
 
   const stats = [
     { icon: <FolderGit2 className="h-5 w-5" />, value: "5+", label: "Projects Built" },
-    { icon: <Code className="h-5 w-5" />, value: "6+", label: "Technologies" },
-    { icon: <Rocket className="h-5 w-5" />, value: "100%", label: "Passion Driven" },
-    { icon: <GraduationCap className="h-5 w-5" />, value: "1", label: "Certification" }
+    { icon: <Code className="h-5 w-5" />, value: "6+", label: "Core Technologies" },
+    { icon: <Rocket className="h-5 w-5" />, value: "2+", label: "Years Developing" },
+    { icon: <GraduationCap className="h-5 w-5" />, value: "1", label: "Professional Certification" }
   ];
 
   return (

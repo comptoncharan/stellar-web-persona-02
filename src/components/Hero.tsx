@@ -39,14 +39,16 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
-            <Button variant="outline" size="lg" className="border-2 border-border hover:border-primary hover:bg-primary/10 px-8 py-6 rounded-full transition-all duration-300 hover:scale-105">
-              <Download className="mr-2 h-5 w-5" />
-              Download CV
+            <Button variant="outline" size="lg" className="border-2 border-border hover:border-primary hover:bg-primary/10 px-8 py-6 rounded-full transition-all duration-300 hover:scale-105" asChild>
+              <a href="/cv.pdf" download="Compton_Shidath_Charan_CV.pdf">
+                <Download className="mr-2 h-5 w-5" />
+                Download CV
+              </a>
             </Button>
           </div>
           
           <div className="flex justify-center gap-6">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-border bg-card hover:border-primary hover:bg-primary/10 transition-all duration-300 hover:scale-110" aria-label="GitHub">
+            <a href="https://github.com/comptoncharan" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-border bg-card hover:border-primary hover:bg-primary/10 transition-all duration-300 hover:scale-110" aria-label="GitHub">
               <Github size={24} className="text-foreground" />
             </a>
             <a href="https://www.linkedin.com/in/compton-charan-052b37175" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-border bg-card hover:border-primary hover:bg-primary/10 transition-all duration-300 hover:scale-110" aria-label="LinkedIn">

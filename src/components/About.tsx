@@ -31,7 +31,7 @@ const About = () => {
             <span className="text-gradient">Technology</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm an entry-level Full Stack Developer with a unique background in operations management. 
+            I'm an entry-level Full Stack Developer with over 15 years of operations and leadership experience. 
             My technical stack includes <span className="text-primary">HTML, CSS, JavaScript, Python, React, and Flask</span>, 
             with a strong focus on responsive design, performance optimization, and security best practices.
           </p>

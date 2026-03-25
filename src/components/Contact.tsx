@@ -34,13 +34,15 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github size={24} />, href: "https://github.com", label: "GitHub" },
+    { icon: <Github size={24} />, href: "https://github.com/comptoncharan", label: "GitHub" },
     { icon: <Linkedin size={24} />, href: "https://www.linkedin.com/in/compton-charan-052b37175", label: "LinkedIn" }
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Message sent successfully! I'll get back to you soon.");
+    const mailto = `mailto:kidoftheking76@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.name} <${formData.email}>\n\n${formData.message}`)}`;
+    window.location.href = mailto;
+    toast.success("Opening your email client. Send the message to reach me.");
     setFormData({ name: "", email: "", subject: "", message: "" });
   };
 

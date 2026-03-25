@@ -29,6 +29,10 @@ The project is built using a modern, performance-focused frontend stack:
 
 ---
 
+## 📄 CV / Resume
+
+Place your resume PDF in the `public` folder as **`cv.pdf`** so the "Download CV" button works. The file will be served at `/cv.pdf`.
+
 ## 🏗️ Project Structure
 
 ```text
@@ -38,4 +42,6 @@ src/
  ├─ assets/          # Static assets such as images and icons
  ├─ App.tsx          # Root application component
  └─ main.tsx         # Application entry point
+public/
+ └─ cv.pdf           # Add your resume here for the Download CV button
 
